@@ -1,17 +1,25 @@
 ﻿using System;
+using System.Linq;
 
 namespace DistanceConverter
 {
     public class Menus
     {
-        private string UnitFrom;
-        private string UnitTo;
+        private string UnitFrom { get; set; }
+        private string UnitTo { get; set; }
+        private double ValueIn { get; set; }
         
         
-        private double miles;
-        private double feet;
-        private double metres;
-        private double kilometres;
+
+
+        public Menus(string unitTo, string unitFrom)
+        {
+            UnitTo = unitTo;
+            UnitFrom = unitFrom;
+
+        }
+
+
 
         public void run()
         {
@@ -19,7 +27,7 @@ namespace DistanceConverter
             //
         }
 
-        private string inputUnitFrom(){
+        private void inputUnitFrom(){
             Console.WriteLine("Hello, Welcome to the distance converter" +
                               "Please select a unit to convert FROM from the menu by typing it's associated number" +
                               "(eg, for metres press 3.)" +
@@ -28,20 +36,17 @@ namespace DistanceConverter
                               "2. Miles" +
                               "3. Metres" +
                               "4. Kilometers");
-            UnitFrom = Console.ReadLine();
-            return UnitFrom;
-
+            this.UnitFrom = Console.ReadLine();
         }
-        private string inputUnitTo(){
+        
+        private void inputUnitTo(){
             Console.WriteLine("Now, please select a unit to convert to." +
                               "----------------------------------" +
                               "1. Feet" +
                               "2. Miles" +
                               "3. Metres" +
                               "4. Kilometers");
-            UnitFrom = Console.ReadLine();
-            return UnitTo;
-
+            this.UnitTo = Console.ReadLine();
         }
 
 

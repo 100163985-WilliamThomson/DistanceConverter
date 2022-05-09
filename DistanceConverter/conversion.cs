@@ -4,15 +4,15 @@ namespace DistanceConverter
 {
     public class conversion
     {
-        public const int FEET_IN_MILES = 5280;
-        public const double FEET_IN_METRES = 3.28084;
-        public const double METRES_IN_MILES = 1609.34;
-        public const double METRES_IN_KILOMETRES = 1000;
-        public const double KILOMETRES_IN_MILES = 1.60934;
-        public const double FEET_IN_KILOMETRES = 3280.84;
+        private const int FEET_IN_MILES = 5280;
+        private const double FEET_IN_METRES = 3.28084;
+        private const double METRES_IN_MILES = 1609.34;
+        private const double METRES_IN_KILOMETRES = 1000;
+        private const double KILOMETRES_IN_MILES = 1.60934;
+        private const double FEET_IN_KILOMETRES = 3280.84;
 
 
-        private double milesAndFeet(double value, string calcDirection)
+        public double milesAndFeet(double value, string calcDirection)
         {
             switch (calcDirection)
             {
@@ -32,7 +32,7 @@ namespace DistanceConverter
         }
 
         
-        private double milesMetres(double value, string calcDirection)
+        public double milesMetres(double value, string calcDirection)
         {
             switch (calcDirection)
             {
@@ -51,7 +51,7 @@ namespace DistanceConverter
         }
 
 
-        private double milesKilometres(double value, string calcDirection)
+        public double milesKilometres(double value, string calcDirection)
         {
             switch (calcDirection)
             {
@@ -71,7 +71,7 @@ namespace DistanceConverter
             return value;
         }
 
-        private double metresFeet(double value, string calcDirection)
+        public double metresFeet(double value, string calcDirection)
         {
             {
                 switch (calcDirection)
@@ -92,7 +92,7 @@ namespace DistanceConverter
             }
         }
 
-        private double kilometresFeet (double value, string calcDirection)
+        public double kilometresFeet (double value, string calcDirection)
         {
             {
                 switch (calcDirection)
@@ -113,7 +113,7 @@ namespace DistanceConverter
             }
         }
 
-        private double kilometresMetre(double value, string calcDirection)
+        public double kilometresMetre(double value, string calcDirection)
         {
             {
                 switch (calcDirection)
