@@ -1,0 +1,16 @@
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.csproj.AssemblyReference.cache
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.AssemblyInfoInputs.cache
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.AssemblyInfo.cs
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.csproj.CoreCompileInputs.cache
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.exe
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.deps.json
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.runtimeconfig.json
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.runtimeconfig.dev.json
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.dll
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\ref\DistanceConverter.dll
+C:\Users\100163985\RiderProjects\DistanceConverter\bin\Debug\net5.0\DistanceConverter.pdb
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.dll
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\ref\DistanceConverter.dll
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.pdb
+C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.genruntimeconfig.cache
