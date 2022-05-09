@@ -99,12 +99,12 @@ namespace DistanceConverter
                 {
                     case "0": // 
                     {
-                        value *= // ;
+                        value *= FEET_IN_KILOMETRES ;
                         break;
                     }
                     case "1":
                     {
-                        value /= //;
+                        value /= FEET_IN_KILOMETRES;
                         break;
                     }
 

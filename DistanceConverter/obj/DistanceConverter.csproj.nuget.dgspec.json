@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Github\\DistanceConverter\\DistanceConverter.csproj": {}
+    "H:\\Github\\beggin\\DistanceConverter\\DistanceConverter.csproj": {}
   },
   "projects": {
-    "H:\\Github\\DistanceConverter\\DistanceConverter.csproj": {
+    "H:\\Github\\beggin\\DistanceConverter\\DistanceConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Github\\DistanceConverter\\DistanceConverter.csproj",
+        "projectUniqueName": "H:\\Github\\beggin\\DistanceConverter\\DistanceConverter.csproj",
         "projectName": "DistanceConverter",
-        "projectPath": "H:\\Github\\DistanceConverter\\DistanceConverter.csproj",
+        "projectPath": "H:\\Github\\beggin\\DistanceConverter\\DistanceConverter.csproj",
         "packagesPath": "C:\\Users\\100163985\\.nuget\\packages\\",
-        "outputPath": "H:\\Github\\DistanceConverter\\obj\\",
+        "outputPath": "H:\\Github\\beggin\\DistanceConverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
