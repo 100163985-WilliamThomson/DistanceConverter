@@ -58,7 +58,7 @@ namespace DistanceConverter
                 {
                     case ((1,2) or (2,1)):// if user selects miles and feet either way
                     {
-                        bool calcDirection = (this.UF == 1) ? false : true;
+                        bool calcDirection = (this.UF == 1) ? true : false;
                         result = Robot.milesAndFeet(this.value, calcDirection);
                         break;
 
@@ -102,7 +102,7 @@ namespace DistanceConverter
                     
                     default:
                     {
-                        Console.Write("You've done something terribly wrong to get this.");
+                        Console.WriteLine("You've done something terribly wrong to get this.");
                         break;
                     }
                 } 

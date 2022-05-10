@@ -17,37 +17,45 @@ namespace DistanceConverter
         public void run()
         {
             ValueOut = 0;
-            while (ValueOut == 0)
+            while (true)
             {
                 dataCollect();
                 Logic backend = new Logic(UnitFrom, UnitTo, ValueIn);
                 ValueOut = backend.selectorBot();
-                Console.WriteLine("Error, invalid selection(s) for units or values. Please try again.");
+                if (ValueOut == 0)
+                {
+                    Console.WriteLine("\nError, invalid selection(s) for units or values. Please try again.\n");
+                }
+                else
+                {
+                    output();
+                    break;
+                }
             }
-            output();
+
 
         }
 
         private void inputUnitFrom(){
-            Console.WriteLine("Hello, Welcome to the distance converter" +
-                              "Please select a unit to convert FROM from the menu by typing it's associated number" +
-                              "(eg, for metres press 3.)" +
-                              "----------------------------------" +
-                              "1. Feet" +
-                              "2. Miles" +
-                              "3. Metres" +
-                              "4. Kilometers");
+            Console.Write("Hello, Welcome to the distance converter \n" +
+                              "Please select a unit to convert FROM from the menu by typing it's associated number\n" +
+                              "(eg, for metres press 3.)\n" +
+                              "----------------------------------\n" +
+                              "1. Feet\n" +
+                              "2. Miles\n" +
+                              "3. Metres\n" +
+                              "4. Kilometers\n");
             UnitFrom = Convert.ToInt32(Console.ReadLine());
             UnitFromString = unitSelector(UnitFrom);
         }
         
         private void inputUnitTo(){
-            Console.WriteLine("Now, please select a unit to convert to." +
-                              "----------------------------------" +
-                              "1. Feet" +
-                              "2. Miles" +
-                              "3. Metres" +
-                              "4. Kilometers");
+            Console.WriteLine("Now, please select a unit to convert to.\n" +
+                              "----------------------------------\n" +
+                              "1. Feet\n" +
+                              "2. Miles\n" +
+                              "3. Metres\n" +
+                              "4. Kilometers\n");
             UnitTo = Convert.ToInt32(Console.ReadLine());
             UnitToString = unitSelector(UnitTo);
         }
