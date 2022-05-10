@@ -106,8 +106,6 @@ namespace DistanceConverter
                 return value;
             }
         }
-
-
         public double milesKilometres(double value, bool calcDirection)
         {
             switch (calcDirection)
@@ -127,17 +125,7 @@ namespace DistanceConverter
 
             return value;
         }
-
-
-
-
-
-
-
-
-
-
-
+        
 
     }
 

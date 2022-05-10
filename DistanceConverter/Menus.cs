@@ -23,8 +23,7 @@ namespace DistanceConverter
 
         public void run()
         {
-            // make a thing that does a selection
-            //
+
             
         }
 
