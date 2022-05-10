@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
+﻿
 namespace DistanceConverter
 {
     public class Conversion
@@ -47,24 +46,25 @@ namespace DistanceConverter
             }
             return value;
         }
-        public double milesKilometres(double value, bool calcDirection)
+        public double kilometresMetre(double value, bool calcDirection)
         {
-            switch (calcDirection)
             {
-                case false: // km to mi
+                switch (calcDirection)
                 {
-                    value *= KILOMETRES_IN_MILES;
-                    break;
-                }
-                case true: // mi to km
-                {
-                    value /= KILOMETRES_IN_MILES;
-                    break;
-                }
+                    case false: // km to m
+                    {
+                        value *= METRES_IN_KILOMETRES;
+                        break;
+                    }
+                    case true: // m to km
+                    {
+                        value /= METRES_IN_KILOMETRES;
+                        break;
+                    }
 
+                }
+                return value;
             }
-
-            return value;
         }
         public double metresFeet(double value, bool calcDirection)
         {
@@ -106,28 +106,27 @@ namespace DistanceConverter
                 return value;
             }
         }
-        public double kilometresMetre(double value, bool calcDirection)
+
+
+        public double milesKilometres(double value, bool calcDirection)
         {
+            switch (calcDirection)
             {
-                switch (calcDirection)
+                case false: // km to mi
                 {
-                    case false: // km to m
-                    {
-                        value *= METRES_IN_KILOMETRES;
-                        break;
-                    }
-                    case true: // m to km
-                    {
-                        value /= METRES_IN_KILOMETRES;
-                        break;
-                    }
-
+                    value *= KILOMETRES_IN_MILES;
+                    break;
                 }
-                return value;
+                case true: // mi to km
+                {
+                    value /= KILOMETRES_IN_MILES;
+                    break;
+                }
+
             }
+
+            return value;
         }
-
-
 
 
 

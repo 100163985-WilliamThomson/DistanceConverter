@@ -7,7 +7,7 @@ namespace DistanceConverter
         public static void Main(string[] args)
         {
             Console.WriteLine("I was even the Godfather to your newborn son..");
-            Menus converter = new Menus("","");
+            Menus converter = new Menus(0,0);
             converter.run();
         }
     }

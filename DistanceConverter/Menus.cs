@@ -5,14 +5,14 @@ namespace DistanceConverter
 {
     public class Menus
     {
-        private string UnitFrom { get; set; }
-        private string UnitTo { get; set; }
+        private int UnitFrom { get; set; }
+        private int UnitTo { get; set; }
         private double ValueIn { get; set; }
         
         
 
 
-        public Menus(string unitTo, string unitFrom)
+        public Menus(int unitTo, int unitFrom)
         {
             UnitTo = unitTo;
             UnitFrom = unitFrom;
@@ -37,7 +37,7 @@ namespace DistanceConverter
                               "2. Miles" +
                               "3. Metres" +
                               "4. Kilometers");
-            this.UnitFrom = Console.ReadLine();
+            this.UnitFrom = Convert.ToInt32(Console.ReadLine());
         }
         
         private void inputUnitTo(){
@@ -47,7 +47,7 @@ namespace DistanceConverter
                               "2. Miles" +
                               "3. Metres" +
                               "4. Kilometers");
-            this.UnitTo = Console.ReadLine();
+            this.UnitTo = Convert.ToInt32(Console.ReadLine());
         }
 
 
