@@ -13,9 +13,9 @@ namespace DistanceConverter
         private int UT { get; }
         private int UF { get; }
         
-        private int value { get; set; }
+        private double value { get; set; }
 
-        public Logic(int unitTo, int unitFrom, int num)
+        public Logic(int unitFrom, int unitTo, double num)
         {
             UT = unitTo;
             UF = unitFrom;
@@ -107,7 +107,7 @@ namespace DistanceConverter
                     }
                 } 
             }
-            else // user has entered a number that is not in the range, so default the result to zero and check for an error on the user side
+            else // user has entered a number that is not in the range, so default the result to zero and throw an error on the other side
             {
                 result = 0;
             }
@@ -121,11 +121,6 @@ namespace DistanceConverter
 
 
 
-/* copy/paste block
-                        bool calcDirection = (this.UF == ##) ? false : true;
-                        result = Cbot.##(this.value, calcDirection);
-                        return result;
- */
 
 
 

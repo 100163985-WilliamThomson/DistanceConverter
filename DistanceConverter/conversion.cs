@@ -135,25 +135,3 @@ namespace DistanceConverter
 }
 
 
-
-/*  FUNCTION FORMAT
-{
-    switch (calcDirection)
-    {
-        case "0": // 
-        {
-            value *= //;
-            break;
-        }
-        case "1":
-        {
-            value /= //;
-            break;
-        }
-
-    }
-    return value;
-}
-
-
-*/

@@ -6,7 +6,7 @@ namespace DistanceConverter
     {
         public static void Main()
         {
-            Menus converter = new Menus(0,0);
+            Menus converter = new Menus();
             converter.run();
         }
     }
