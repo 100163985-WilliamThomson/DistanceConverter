@@ -2,7 +2,7 @@
 
 namespace DistanceConverter
 {
-    public class conversion
+    public class Conversion
     {
         private const int FEET_IN_MILES = 5280;
         private const double FEET_IN_METRES = 3.28084;
@@ -12,17 +12,17 @@ namespace DistanceConverter
         private const double FEET_IN_KILOMETRES = 3280.84;
 
 
-        public double milesAndFeet(double value, string calcDirection)
+        public double milesAndFeet(double value, bool calcDirection)
         {
             switch (calcDirection)
             {
-                case "0": // just converts value in ft to mi
+                case false: // just converts value in ft to mi
                 {
                     value *= FEET_IN_MILES;
                     break;
                 }
 
-                case "1": // reverse direction, value in miles to convert to feet
+                case true: // reverse direction, value in miles to convert to feet
                 {
                     value /= FEET_IN_MILES;
                     break;
@@ -30,18 +30,16 @@ namespace DistanceConverter
             }
             return value;
         }
-
-        
-        public double milesMetres(double value, string calcDirection)
+        public double milesMetres(double value, bool calcDirection)
         {
             switch (calcDirection)
             {
-                case "0":
+                case false:
                 {
                     value *= METRES_IN_MILES;
                     break;
                 }
-                case "1":
+                case true:
                 {
                     value /= METRES_IN_MILES;
                     break;
@@ -49,18 +47,16 @@ namespace DistanceConverter
             }
             return value;
         }
-
-
-        public double milesKilometres(double value, string calcDirection)
+        public double milesKilometres(double value, bool calcDirection)
         {
             switch (calcDirection)
             {
-                case "0": // km to mi
+                case false: // km to mi
                 {
                     value *= KILOMETRES_IN_MILES;
                     break;
                 }
-                case "1": // mi to km
+                case true: // mi to km
                 {
                     value /= KILOMETRES_IN_MILES;
                     break;
@@ -70,18 +66,17 @@ namespace DistanceConverter
 
             return value;
         }
-
-        public double metresFeet(double value, string calcDirection)
+        public double metresFeet(double value, bool calcDirection)
         {
             {
                 switch (calcDirection)
                 {
-                    case "0": // metres to ft
+                    case false: // metres to ft
                     {
                         value *= FEET_IN_METRES ;
                         break;
                     }
-                    case "1": // ft to metres
+                    case true: // ft to metres
                     {
                         value /= FEET_IN_METRES;
                         break;
@@ -91,18 +86,17 @@ namespace DistanceConverter
                 return value;
             }
         }
-
-        public double kilometresFeet (double value, string calcDirection)
+        public double kilometresFeet (double value, bool calcDirection)
         {
             {
                 switch (calcDirection)
                 {
-                    case "0": // 
+                    case false: // 
                     {
                         value *= FEET_IN_KILOMETRES ;
                         break;
                     }
-                    case "1":
+                    case true:
                     {
                         value /= FEET_IN_KILOMETRES;
                         break;
@@ -112,18 +106,17 @@ namespace DistanceConverter
                 return value;
             }
         }
-
-        public double kilometresMetre(double value, string calcDirection)
+        public double kilometresMetre(double value, bool calcDirection)
         {
             {
                 switch (calcDirection)
                 {
-                    case "0": // km to m
+                    case false: // km to m
                     {
                         value *= METRES_IN_KILOMETRES;
                         break;
                     }
-                    case "1": // m to km
+                    case true: // m to km
                     {
                         value /= METRES_IN_KILOMETRES;
                         break;
