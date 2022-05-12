@@ -11,7 +11,8 @@ namespace DistanceConverter
         private string UnitToString { get; set; }
         private double ValueIn { get; set; }
         private double ValueOut { get; set; }
-
+        
+        /* declaring variables beforehand, set as private for security */
 
 
         public void run()
@@ -49,7 +50,8 @@ namespace DistanceConverter
             UnitFromString = unitSelector(UnitFrom);
         }
         
-        private void inputUnitTo(){
+        private void inputUnitTo() //Enter the unit to convert to.
+        {
             Console.WriteLine("Now, please select a unit to convert to.\n" +
                               "----------------------------------\n" +
                               "1. Feet\n" +
@@ -60,7 +62,7 @@ namespace DistanceConverter
             UnitToString = unitSelector(UnitTo);
         }
 
-        private void inputValueIn()
+        private void inputValueIn() // Input the value to convert from
         {
             Console.WriteLine("Now, please select the value that you would to convert.");
             ValueIn = Convert.ToInt32(Console.ReadLine());
@@ -73,7 +75,7 @@ namespace DistanceConverter
             inputValueIn();
         }
 
-        private string unitSelector(int unit) //Takes the menu inputs and creates an accompanying string, for use in output
+        private string unitSelector(int unit) //Takes the menu inputs and creates an accompanying string, for use in output()
         {
             string unitString;
             switch (unit)
@@ -110,7 +112,7 @@ namespace DistanceConverter
 
         
         
-        private void output()
+        private void output() // Final console output.
         {
             Console.WriteLine($"There are {ValueOut} {UnitToString} in {ValueIn} {UnitFromString}.");
         }

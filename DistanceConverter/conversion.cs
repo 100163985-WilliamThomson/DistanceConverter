@@ -33,12 +33,12 @@ namespace DistanceConverter
         {
             switch (calcDirection)
             {
-                case false:
+                case false: //mi to m
                 {
                     value *= METRES_IN_MILES;
                     break;
                 }
-                case true:
+                case true: // m to mi
                 {
                     value /= METRES_IN_MILES;
                     break;
@@ -91,12 +91,12 @@ namespace DistanceConverter
             {
                 switch (calcDirection)
                 {
-                    case false: // 
+                    case false: //km to ft
                     {
                         value *= FEET_IN_KILOMETRES ;
                         break;
                     }
-                    case true:
+                    case true: // ft to km
                     {
                         value /= FEET_IN_KILOMETRES;
                         break;
