@@ -14,3 +14,19 @@ C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConv
 C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\ref\DistanceConverter.dll
 C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.pdb
 C:\Users\100163985\RiderProjects\DistanceConverter\obj\Debug\net5.0\DistanceConverter.genruntimeconfig.cache
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.exe
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.deps.json
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.runtimeconfig.json
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.runtimeconfig.dev.json
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.dll
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\ref\DistanceConverter.dll
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\bin\Debug\net5.0\DistanceConverter.pdb
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.csproj.AssemblyReference.cache
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.AssemblyInfoInputs.cache
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.AssemblyInfo.cs
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.csproj.CoreCompileInputs.cache
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.dll
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\ref\DistanceConverter.dll
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.pdb
+C:\Users\Alite\Documents\Development Env\Rider\DistanceConverter\obj\Debug\net5.0\DistanceConverter.genruntimeconfig.cache

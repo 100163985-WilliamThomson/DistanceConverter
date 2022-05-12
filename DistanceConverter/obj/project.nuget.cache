@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AtqaqdkucyfAx0I7bURDoURVFPq1GHWMo/Q93EsD6NOUxfg6UUVmqinnBGBcWn9Jb63v6CVxFz371k6bjO/o0A==",
+  "dgSpecHash": "6g2WDZ663sCtrNC3/+p8bgH2TaxFN/0cJyhV0RKv/7ghOCBuRFdeHwhN6EGxqBdX/lPOFiXR/lhXazdlHFKBKg==",
   "success": true,
-  "projectFilePath": "H:\\Github\\beggin\\DistanceConverter\\DistanceConverter.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alite\\Documents\\Development Env\\Rider\\DistanceConverter\\DistanceConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alite\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Alite\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Alite\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Alite\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
